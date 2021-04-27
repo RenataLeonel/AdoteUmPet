@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pet_v1"
+    android:orientation="vertical"
+    tools:context=".SobreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom"
+            android:text="Sobre o AUP"
+            android:textColor="@color/colorWhite"
+            android:textSize="70px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/texto_sobre"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textSize="40px"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Apoiamos"
+            android:textColor="@color/colorWhite"
+            android:textSize="50px"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/entidades_adocao"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textSize="40px"
+
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/botao_customizado_transparente"
+                android:text="Tela inicial"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/copyright"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Adote um Pet 2021 © alguns direitos reservados."
+            android:textColor="@color/colorWhite"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

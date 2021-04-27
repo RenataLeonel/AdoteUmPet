@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_pet_v1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="Adote um Pet"
+        android:textSize="150px"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/aup_logo_main"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnlistapet"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/botao_customizado_verde"
+            android:text="Adote um Pet"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btncuriosidades"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/botao_customizado_azul"
+            android:text="Curiosidades"
+            android:textColor="@color/colorWhite"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSobre"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="Sobre"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        android:layout_height="150dp"/>
+
+
+
+</LinearLayout>

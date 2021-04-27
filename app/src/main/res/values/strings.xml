@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Adote um pet</string>
+    <string name="need_help_text">Need help? \nVisit the Help Center.</string>
+    <string name="texto_sobre">O objetivo do "Adote um Pet" é ajudar pessoas a encontrar um animal que precisa de acolhimento.\n \n
+É também um projeto dos estudantes Fábio Silva e Renata Leonel, do curso de Análise e Desenvolvimento de Sistemas.</string>
+    <string name="entidades_adocao">Entidades que viabilizam a adoção de pets:
+    \n\n
+    Adote Um Gatinho\n
+    www.adoteumgatinho.com.br
+    \n\n
+    Olhar Animal\n
+    www.olharanimal.org
+    \n\n
+    SOS Gatinhos\n
+    www.sosgatinhos.com.br
+    \n\n
+    Cachorro Perdido\n
+    www.cachorroperdido.com.br
+    \n\n
+    Segunda Chance\n
+    http://segundachance.nafoto.net/
+        \n\n
+        Cia do Bicho\n
+    http://www.ciadobicho.com.br
+         \n\n
+        Arca Brasil - proteção e bem-estar animal\n
+        https://arcabrasil.org.br
+
+
+
+    </string>
+</resources>
